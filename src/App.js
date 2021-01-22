@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './App.scss';
 
 import { Canvas, useFrame } from 'react-three-fiber';
-import { softShadows, MeshWobbleMaterial } from "drei";
+import { softShadows, MeshWobbleMaterial, OrbitControls } from "drei";
 
 softShadows();
 
@@ -52,6 +52,7 @@ function App() {
       position={[0, -3, 0]}>
         <planeBufferGeometry attach='geometry' args={[100, 100]} />
         <shadowMaterial attach='material' opacity={0.3} />
+        <OrbitControls />
       </mesh>
     </group>
   </Canvas>
