@@ -1,4 +1,4 @@
-#ThreeJs/React-Three-Fiber project
+# ThreeJs/React-Three-Fiber project
 Just a small test using mesh's, spring & wobble with RTF.
 You can click to enlarge the boxes, spin all around them and zoom in and out also! 
 
